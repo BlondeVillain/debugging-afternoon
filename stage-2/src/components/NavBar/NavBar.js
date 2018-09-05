@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './NavBar.css';
 import Logo from '../../images/dev-mountain-logo.png'
-
+import { Route, Switch } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 class NavBar extends Component {
 
     render() {
